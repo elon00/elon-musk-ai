@@ -1,0 +1,34 @@
+{
+  "name": "elon-musk-ai-mcp",
+  "version": "1.0.0",
+  "description": "Elon Musk AI Model Context Protocol Server for Autonomous First-Principles Engineering, Multi-Planetary Consciousness & Civilizational Flourishing Protocol",
+  "tools": [
+    {
+      "name": "audit_first_principles_solution",
+      "description": "Audit complex engineering and civilizational challenges by decomposing to fundamental physics truths, testing assumptions, and optimizing efficiency",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "context": { "type": "string" },
+          "physical_constraints": { "type": "string" },
+          "optimization_target": { "type": "string" }
+        },
+        "required": ["context"]
+      }
+    },
+    {
+      "name": "disburse_civilizational_acceleration_grant",
+      "description": "Trigger automated micro-escrow releases for orbital exploration payloads, sustainable micro-grid infrastructure, humanoid cybernetics, and open-source AI alignment",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "category": { "type": "string" },
+          "recipient": { "type": "string" },
+          "amount_wei": { "type": "string" },
+          "proof_hash": { "type": "string" }
+        },
+        "required": ["category", "recipient", "amount_wei"]
+      }
+    }
+  ]
+}
